@@ -205,7 +205,7 @@ const Layout = ({ children, customSEO }) => {
         {children}
         <Footer>
           &copy; 2019 by jeremybarkley.com <br />
-          <a href="https://github.com/sensoph1">GitHub Repository</a> <br />
+          <a href="https://github.com/sensoph1/my-gatsby-blog.git">GitHub Repository</a> <br />
           <span>Last build: {buildTime}</span>
         </Footer>
       </>
