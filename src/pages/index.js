@@ -50,10 +50,21 @@ const IndexPage = ({
     <Wrapper>
       <Hero>
         <h1>Hi.</h1>
-        <p>
-          I&apos;m John Doe, a Senior UX Developer with five years of industry experience, specializing in developing
-          React apps with the best UX users can get.
-        </p>
+        <h2>
+        Let me turn your ideas into great looking, functional websites and web applications.
+        </h2>
+        <div class="jumbotron">
+        {/* <Image /> */}
+        
+        {/* <img src="./light-bulb-unsplash.jpg" /> */}
+        </div>
+
+        <p>I build fast, responsive, mobile first websites:</p>
+            <ul><li>Landing page (HTML, CSS, JavaScript)</li>
+            <li>CMS Integration (Wordpress - from scratch or theme customization)</li>
+            <li>Converting your Design into to a Landing Page or WordPress</li>
+            </ul>
+        
         <Link to="/contact">
           <Button big>
             <svg width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
