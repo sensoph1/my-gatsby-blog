@@ -11,7 +11,7 @@ module.exports = {
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
   siteDescription: 'Gatsby Blog powered by MDX.', // Your site description
   author: 'jeremybarkley', // Author for schemaORGJSONLD
-  siteLogo: '/social/logo.png', // Image for schemaORGJSONLD
+  siteLogo: '/social/jb-logo.png', // Image for schemaORGJSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@minimal', // Twitter Username - Optional
