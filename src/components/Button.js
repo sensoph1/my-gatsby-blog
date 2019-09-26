@@ -19,11 +19,27 @@ const Button = styled.button`
   &:focus {
     outline: none;
   }
-  svg {
+  svg{
     width: 20px;
     height: 20px;
     margin-right: 0.75rem;
     fill: ${props => props.theme.colors.white};
+  }
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+    color:white;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: white;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
   }
 `
 
